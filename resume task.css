@@ -1,0 +1,99 @@
+ html{
+     margin: 00px;
+     padding:00px;
+     box-sizing: border-box;
+     
+ }
+ body 
+ {
+    margin: 00px;
+    background-color:rgb(117, 216, 218) !important;
+    display: flex;
+   
+  }
+.container{
+   background-color: white;
+   display: grid;
+   font-family: 'Poppins';
+   position: relative;
+   width:100%;
+   box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+   margin: 50px;
+}
+
+.leftside-content{
+ text-align: center; 
+ color:white;
+ background-color: #003147;
+ padding: 20px;
+
+}
+.rightside-content{
+    padding: 00px;
+    text-align: left;
+    padding-top: 20px;
+    background-color: white;
+}
+.photo{
+    text-align: center;
+    border-bottom-style: groove !important;
+    border-bottom-color: #3b8db3;
+}
+.contact-details
+{
+    font-weight: 300;
+    padding:20px;
+    text-align: left;
+}
+image{
+    padding: 10px;
+}
+.profession
+{
+    position: relative;
+    bottom: 8px;
+    font-weight: 400;
+}
+.address{
+    text-align: start;
+    color:#95ecef;
+    display: inline-grid
+ }
+.profession{
+    color:#95ecef;
+}
+.first-com{
+    min-width: 150px;
+}
+.company{
+    display: flex;
+}
+.education{
+    margin-top: 20px;
+}
+@media screen and (max-width: 425px){
+    .container{
+        margin: 00px !important;
+    }
+    .company{
+        display: block;
+    }
+    }
+
+@media screen and (max-width: 375px){
+.container{
+    margin: 00px !important;
+}
+.company{
+    display: block;
+}
+}
+
+@media screen and (max-width: 320px){
+.container{
+    margin: 00px !important;
+}
+.company{
+    display: block;
+}
+}
